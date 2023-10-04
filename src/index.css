@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+  height: 100vh;
+}
+
+.list {
+  line-height: 2em;
+}
+
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+li {
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: #ffffffc5;
+}
+
+li:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.adapting-button {
+  margin: 16px 0px;
+  text-align: center;
+}
+
+.passed-props {
+  text-align: center;
+}
+
+:is(.adapting-button h2, .passed-props h2) {
+  color: #fff;
+}
